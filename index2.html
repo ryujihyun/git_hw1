@@ -6,40 +6,65 @@
 </head>
 <body>
 	<div id="wrap">
-		<div id="header">
-			<h1>인적사항</h1>
+		<div id="top">
+			<p>60082367 | 유지현</p>
 		</div>
-		<div id="main">
+		<div id="header">
+			<div id="header_left">
+				자기소개
+			</div>
+			<div id="header_right">
+				<form>
+					<input type="text" name="search" id="search">
+					<input type="submit" value="Search" id="search_button">
+				</form>
+			</div>			
+		</div>
+		<div id="navbar">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="index2.html">인적사항</a></li>
+				<li><a href="index3.html">설문조사</a></li>
+			</ul>
+		</div>
+		<div id="content2">
 			<table border="1">
-				<thead><tr>
-					<td rowspan="2">성<br>명</td>
-					<td>한 글</td><td colspan="2">유 지 현</td>
-					<td colspan="3" rowspan="3"><img src="images/jihyun.jpg" alt="지현 사진"></td>
-				</tr>
-				<tr>
-						<td>영 문</td><td colspan="2">You Ji Hyun</td>
+				<thead>
+					<tr>
+						<td rowspan="2" id="name" class="T_name">성<br>명</td>
+						<td class="N_sub">한 글</td><td colspan="2" class="N_sub">유 지 현</td>
+						<td colspan="3" rowspan="3" id="imgcell">
+							<img src="images/ryujihyun.jpg" alt="지현 사진">
+						</td>
 					</tr>
 					<tr>
-						<td colspan="2">생년월일</td><td colspan="2">1989.12.17</td>
-					</tr></thead>
-					<tbody><tr>
-						<td rowspan="5">학<br><br>력</td>
-						<td colspan="2">기 간</td><td colspan="2">학 교 명</td><td colspan="2">전 공</td>
+						<td class="N_sub">영 문</td><td colspan="2" class="N_sub">You Ji Hyun</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="sub">생년월일</td><td colspan="2" class="sub">1989.12.17</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="5" class="T_name">학<br><br>력</td>
+						<td colspan="2" id="date" class="sub">기 간</td><td colspan="2" class="sub">학 교 명</td><td colspan="2" class="sub">전 공</td>
 					</tr><tr>
 						<td colspan="2">1996.03 ~ 2002.02</td><td colspan="2">백마초등학교</td>
+						<td colspan="2"></td>
 					</tr><tr>
 						<td colspan="2">2002.03 ~ 2005.02</td><td colspan="2">정발중학교</td>
+						<td colspan="2"></td>
 					</tr><tr>
 						<td colspan="2">2005.03 ~ 2008.02</td><td colspan="2">백석고등학교</td><td colspan="2">이과</td>
 					</tr><tr>
 						<td colspan="2">2008.03 ~</td><td colspan="2">명지대학교</td><td colspan="2">컴퓨터공학과</td>
 					</tr><tr>
-						<td rowspan='2'>군<br>력</td>
-						<td colspan="2">기 간</td><td colspan="2">근 무 처</td><td colspan="2">직 위</td>
+						<td rowspan='2' class="T_name">군<br>력</td>
+						<td colspan="2" class="sub">기 간</td><td colspan="2" class="sub">근 무 처</td><td colspan="2" class="sub">직 위</td>
 					</tr><tr>
 						<td colspan="2">2009.09 ~ 2011.07</td><td colspan="2">해병대 2사단</td><td colspan="2">병장 만료 전역</td>
 					</tr><tr>
-						<td rowspan="4">가<br>족<br>관<br>계</td><td>관계</td><td colspan="2">이 름</td><td colspan="2">직 업</td><td>나이</td>
+						<td rowspan="4" class="T_name">가<br>족<br>관<br>계</td><td class="sub">관계</td><td colspan="2" class="sub">이 름</td><td colspan="2" class="sub">직 업</td><td class="sub">나이</td>
 					</tr><tr>
 						<td>부</td><td colspan="2">유성원</td><td colspan="2">펀드매니저</td><td>52</td>
 					</tr><tr>
@@ -50,7 +75,10 @@
 				</tbody>
 			</table>
 		</div>
-	<a href="index.html">HOME으로</a>
+		<div id="footer">
+			<p>사이트 소개 | 이용약관 | 개인정보취급방침 | 책임의 한계화 법적 고지 | 고객센터</p>
+			<p>Copyright © Intoruduction Main. All rights reserved.</p>
+		</div>
 	</div>
 </body>
 </html>

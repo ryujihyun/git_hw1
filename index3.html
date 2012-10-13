@@ -6,43 +6,74 @@
 </head>
 <body>
 	<div id="wrap">
-		<div id="header">
-			<h1>설문조사</h1>
+		<div id="top">
+			<p>60082367 | 유지현</p>
 		</div>
-		<div id="main2">
+		<div id="header">
+			<div id="header_left">
+				설문조사
+			</div>
+			<div id="header_right">
+				<form>
+					<input type="text" name="search" id="search">
+					<input type="submit" value="Search" id="search_button">
+				</form>
+			</div>
+		</div>
+		<div id="navbar">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="index2.html">인적사항</a></li>
+				<li><a href="index3.html">설문조사</a></li>
+			</ul>
+		</div>
+		<div id="content3">
 			<form>
-				<input type="hidden" name="type" value="user">
-				유지현의 별명은? 
-				<input type="text" name="nickname" size="10">
-				<input type="button" value="정답확인"><br>
+				<div>
+					<input type="hidden" name="type" value="user">
+					유지현의 별명은? 
+					<input type="text" name="nickname" size="10">
+					<input type="button" value="정답확인"><br>
+				</div>
+				<div>
 				성 별 : 
-				<input type="radio" name="sex" value="m">남
-				<input type="radio" name="sex" value="f">여<br>
-				취 미 : 
-				<input type="checkbox" name="hobby" value="book">독서
-				<input type="checkbox" name="hobby" value="game">게임
-				<input type="checkbox" name="hobby" value="music">음악감상<br>
-				<input type="checkbox" name="hobby" value="soccer">축구
-				<input type="checkbox" name="hobby" value="climb">등산
-				<input type="checkbox" name="hobby" value="nap">닞잠<br>
+					<input type="radio" name="sex" value="m">남
+					<input type="radio" name="sex" value="f">여<br>
+				</div>
+				<div>
+					취 미 : 
+					<input type="checkbox" name="hobby" value="book">독서 
+					<input type="checkbox" name="hobby" value="game">게임 
+					<input type="checkbox" name="hobby" value="music">음악감상 
+					<input type="checkbox" name="hobby" value="soccer">축구 
+					<input type="checkbox" name="hobby" value="climb">등산 
+					<input type="checkbox" name="hobby" value="nap">낮잠
+				</div>
+				<div>
 				주 소 : 
-				<select name="from">
-					<option value="Seoul">서울</option>
-					<option value="Jeju">제주도</option>
-					<option value="busan">부산</option>
-					<option value="NKorea">북한</option>
-					<option value="Ilsan">일산</option>
-					<option value="Space">토성</option>
-				</select>
-				유지현에게 하고 싶은 말<br>
-				<textarea cols="40" name="say"></textarea><br>
-				유지현에게 몰래 하고 싶은 말<br>
-				<input type="password" name="secret">
+					<select name="from">
+						<option value="Seoul">서울</option>
+						<option value="Jeju">제주도</option>
+						<option value="busan">부산</option>
+						<option value="NKorea">북한</option>
+						<option value="Ilsan">일산</option>
+						<option value="Space">토성</option>
+					</select>
+				</div>
+				<div>
+					유지현에게 하고 싶은 말<br>
+					<textarea cols="40" name="say"></textarea><br>
+				</div>
+				<div>
+					유지현에게 몰래 하고 싶은 말<br>
+					<input type="password" name="secret">
+				</div>
 			</form>
 		</div>
-		<a href="index.html">처음으로</a>
-		<hr>
-		<h2>감사합니다</h2>
+		<div id="footer">
+			<p>사이트 소개 | 이용약관 | 개인정보취급방침 | 책임의 한계화 법적 고지 | 고객센터</p>
+			<p>Copyright © Intoruduction Main. All rights reserved.</p>
+		</div>
 	</div>
 </body>
 </html>
